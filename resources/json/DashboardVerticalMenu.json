@@ -1,0 +1,12 @@
+{
+    "menu": [
+        {
+            "url": "/employees",
+            "name": "employees_list",
+            "i18n": "employees",
+             "slug": "employees",
+            "icon": "hot_tub",
+            "tagcustom": "badge pill purple float-right mr-10"
+        }
+    ]
+}

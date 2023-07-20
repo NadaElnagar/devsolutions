@@ -1,0 +1,53 @@
+{
+    "menu": [
+        {
+            "url": "javascript:void(0)",
+            "name": "admins",
+            "i18n": "admins",
+            "class": "collapsible-header waves-effect waves-cyan",
+            "slug": "admins",
+            "icon": "ac_unit",
+            "tag": "3",
+            "tagcustom": "badge pill purple float-right mr-10",
+            "submenu": [
+                {
+                    "url": "dashboard/admins",
+                    "name": "admin_list",
+                    "i18n": "List",
+                    "slug": "Admin-list"
+                },
+                {
+                    "url": "dashboard/roles",
+                    "name": "roles",
+                    "i18n": "roles",
+                    "slug": "role",
+                    "icon": "face"
+                },
+                {
+                    "url": "dashboard/audit-logs",
+                    "name": "audit-logs",
+                    "i18n": "audit-logs",
+                    "class": "waves-effect waves-cyan",
+                    "slug": "audit-logs",
+                    "icon": "log"
+                }
+            ]
+        },
+        {
+            "url": "dashboard/products",
+            "name": "products_list",
+            "i18n": "products",
+            "slug": "products",
+            "icon": "hot_tub",
+            "tagcustom": "badge pill purple float-right mr-10"
+        },
+        {
+            "url": "dashboard/orders",
+            "name": "orders_list",
+            "i18n": "orders",
+            "slug": "orders",
+            "icon": "business_center",
+            "tagcustom": "badge pill purple float-right mr-10"
+        }
+    ]
+}
