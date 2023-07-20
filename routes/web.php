@@ -13,6 +13,7 @@ use App\Http\Controllers\EmployeeController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/', [EmployeeController::class,'index']);
 
 Route::resource('employees', \App\Http\Controllers\EmployeeController::class);
 
